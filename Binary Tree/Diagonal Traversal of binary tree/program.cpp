@@ -1,6 +1,6 @@
 // 1. use map to store node with particular diagonal value;
 // 2. create helper function and pass the reference of map;
-// 3. *** use diogonal value same for right node and diagonal+1 value for nodes.
+// 3. *** use diogonal value same for right node and diagonal+1 value for left nodes.
 
 
 void helper(Node *root, int diagonal,unordered_map<int,vector<int>> &map){

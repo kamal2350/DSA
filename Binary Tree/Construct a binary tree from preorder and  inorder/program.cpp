@@ -1,3 +1,9 @@
+// take map and push all values  of inorder in map further [key:inorder[i]] value=i
+// create helper function , and pass inorder array,preorder array,starting index of preorder, ending preorder,starting index of inorder, ending inorder, 
+// *** if(instart>inEnd||preStart>preEnd) return NUll;
+// create new node 
+// recursively call  helper function for node->left and node->right 
+
 class Solution {
 public:
     
@@ -15,7 +21,7 @@ public:
         return node;
         
     }
-    
+//     start
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         map<int,int>mp;
         
